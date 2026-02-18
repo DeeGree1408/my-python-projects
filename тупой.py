@@ -1,6 +1,6 @@
 name = input("Привет! Как тебя зовут? ")
 while name == "":
-    name = input("Ещё паз: Как тебя зовут? ")
+    name = input("Ещё раз: Как тебя зовут? ")
 city = input("В каком городе ты живёшь? ")
 while city == "":
     city = input("Ещё раз: В каком городе ты живёшь? ")
@@ -11,3 +11,4 @@ number = int(number)
 print(f"Привет, {name}, из города {city}!")
 print(f"Твоё любимое число - {number}")
 print(f"А если его умножить на 2, будет {number*2}")
+print(f"Кто молодец? {name} - МОЛОДЕЦ")
